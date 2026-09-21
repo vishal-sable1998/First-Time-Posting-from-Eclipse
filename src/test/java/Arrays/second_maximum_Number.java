@@ -17,7 +17,10 @@ public class second_maximum_Number {
 				 }
 			 }
 		 }
-		 for(int y:a) {System.out.println(y);};
+		 for(int y:a) 
+		 {  
+			 System.out.println(y);
+		 }
 		 System.out.println("Second largest Element is :" +a[a.length-3]);
 	}
 

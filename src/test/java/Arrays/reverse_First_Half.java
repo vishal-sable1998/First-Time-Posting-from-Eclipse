@@ -8,6 +8,8 @@ public class reverse_First_Half {
 		int min=a.length/2;
 		int n=a.length;
 		for(int i=min-1, j=0; i>j; i--,j++)
+//		for(int i=n-1, j=min; i>j; i--,j++)
+//		for(int i=0, j=a.length-1; i<j; i++, j--)
 		{
 			temp=a[i];
 			a[i]=a[j];
